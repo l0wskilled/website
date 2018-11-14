@@ -4,6 +4,7 @@
 <template id="loader" inherit_id="website.assets_frontend" name="Cookies script loader">
     <xpath expr=".">
         <script type="text/javascript" src="/website_cookie_notice/static/src/js/accept_cookies.js"/>
+        <link rel="stylesheet" href="/website_cookie_notice/static/src/css/cookie-notice.css"/>
     </xpath>
 </template>
 

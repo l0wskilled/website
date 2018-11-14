@@ -1,0 +1,27 @@
+.cc-cookies {
+    background: #efefef;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cc-cookies a {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 769px) {
+    .cc-cookies {
+        flex-direction: row;
+    }
+    .cc-cookies a {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
